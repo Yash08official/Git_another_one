@@ -69,3 +69,14 @@ now go back to main branch
 =======
 
  Now the changes we can do in feature2 branch it will not appear then we actually merge those changes 
+
+
+ <h2> Resolving merge conflicts </h2>
+
+ I change "<p>Work by feature2 (Main branch)</p>" this in index.html
+
+ and git status is modefied now we staged the file
+ we will have to add it we used "git add ."
+ you can see the status the file will br modefied/staged 
+ now commit it by using "git commit -m "msg"" 
+ 
