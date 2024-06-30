@@ -65,3 +65,7 @@ and in github you see message that feature2 had recent pushes
 now go back to main branch 
 
 "git checkout main"
+
+
+
+
