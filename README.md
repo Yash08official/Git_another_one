@@ -9,6 +9,7 @@
 
        <!-- -u means i set it as a upstream branch . whenever i push plese go to this branch then we dont want to write  "origin main" again and again . {-u means settings main as my upstream branch} -->
 
+ feature2
 <h2> Understand the concept of branching and merging </h2>
 
 Branching : Creating a new branch, doing a work seperately there and you are not mixing it with main branch
@@ -65,3 +66,7 @@ and in github you see message that feature2 had recent pushes
 now go back to main branch 
 
 "git checkout main"
+=======
+
+ Now the changes we can do in feature2 branch it will not appear then we actually merge those changes 
+ main
