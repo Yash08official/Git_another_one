@@ -9,33 +9,63 @@
 
        <!-- -u means i set it as a upstream branch . whenever i push plese go to this branch then we dont want to write  "origin main" again and again . {-u means settings main as my upstream branch} -->
 
+ feature2
+<h2> Understand the concept of branching and merging </h2>
+
+Branching : Creating a new branch, doing a work seperately there and you are not mixing it with main branch
+
+<!-- All the code is seperate -->
+
+Merging : Later on you can fanalized your work you merge all the branches to main branch
+
+Git branch command : --> It will tell what branches i have in this repository.
+
+        The branch we have or we are working it shows in green color
+
+If I want to create a new branch then :
+
+"git checkout -b" name_of_branch
+
+ex: "git checkout -b" feature1
+
+then we moved to new branch "feature1"
+
+now when i do git branch again it will show two branches "main" & "feature1"
+and we are on new branch "feature1"
+
+In this "-b" means crating a new branch
+
+so if i want to go to existing branch we put "git checkout main"
+
+so this way we crate multiple branches
+
+now lets create new branch "feature2"
+
+git checkout -b "feature2"
+
+and we are on "feature2" branch
+
+lets add some work in feature2 branch we goto index.html  and write
+<!--  <p>Work by feature2</p> -->
+
+then we check the status
+"git status"
+
+then i will simply say "git add . "
+then git commit -m "added paragraph by feature2 branch"
+
+now how will i push it this is the change we will done in feature2 branch  but in my remote repository (github)  I have only one branch which is main branch and i have done the changes in feature2 branch and i have to push it in feature2 branch
+then i will say
+
+"git push origin feature2"
+
+the changes gone to feature2 branch
+
+and in github you see message that feature2 had recent pushes
+
+now go back to main branch 
+
+"git checkout main"
+=======
 
  Now the changes we can do in feature2 branch it will not appear then we actually merge those changes 
-
-
- As in github we see "comapre and pull" when we click on it
-
- then this will show all the work done by feature2 branch
-
- In this we can add title , description what changes we will do and then we create pull request
-
- when we add pull request they can add reviewers from team some senior manegers , developers they will come and review your code and if they find evrything ok then they will approve the request otherwise they add comment like anything "fix the code"
-
- pull request means when you raise pull request that please merge my code into main branch and then someone from team going to review the changes after that everythinh is fine then you can merge this pull request
-
- and then you "confirm merge"
-
- your code has been merge and you will see it the code or work of feature2 in main branch
-
-
- but when we comeback to local machine "git or vscode" the code will not appear while we are on main branch I cannot see the changes 
-
- gor this i have command for local machine which is 
-
- "git pull origin main"
-
- pulling changes from remote to local repository 
-
- "origin" means remote repository
-
- so all the chaanges will 
