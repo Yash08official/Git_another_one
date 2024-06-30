@@ -83,3 +83,9 @@ now go back to main branch
 
  Now I am going to some another branch
   so lets code "git checkout feature2"
+
+  I do some changes then 
+
+  for differences i used "git diff main" to know the differences between branches
+
+  then merge main i used command "gi merge main"
