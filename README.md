@@ -95,6 +95,8 @@ now commit this changes
 
 then i can push it
 
+You have to got to comapre and pull and then merge it
+
 
 
 
