@@ -93,6 +93,8 @@ now go back to main branch
 git status check
 now commit this changes
 
+then i can push it
+
 
 
 
