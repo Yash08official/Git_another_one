@@ -79,4 +79,7 @@ now go back to main branch
  we will have to add it we used "git add ."
  you can see the status the file will br modefied/staged 
  now commit it by using "git commit -m "msg"" 
- 
+
+
+ Now I am going to some another branch
+  so lets code "git checkout feature2"
