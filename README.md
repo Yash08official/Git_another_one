@@ -52,3 +52,16 @@ then we check the status
 
 then i will simply say "git add . "
 then git commit -m "added paragraph by feature2 branch"
+
+now how will i push it this is the change we will done in feature2 branch  but in my remote repository (github)  I have only one branch which is main branch and i have done the changes in feature2 branch and i have to push it in feature2 branch
+then i will say
+
+"git push origin feature2"
+
+the changes gone to feature2 branch
+
+and in github you see message that feature2 had recent pushes
+
+now go back to main branch 
+
+"git checkout main"
