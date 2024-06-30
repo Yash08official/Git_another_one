@@ -10,4 +10,4 @@
        <!-- -u means i set it as a upstream branch . whenever i push plese go to this branch then we dont want to write  "origin main" again and again . {-u means settings main as my upstream branch} -->
 
 
-<!-- Now the changes we can do in feature2 branch it will not appear then we actually merge those changes -->
+ Now the changes we can do in feature2 branch it will not appear then we actually merge those changes 
