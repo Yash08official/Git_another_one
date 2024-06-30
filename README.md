@@ -66,7 +66,6 @@ and in github you see message that feature2 had recent pushes
 now go back to main branch 
 
 "git checkout main"
-=======
 
  Now the changes we can do in feature2 branch it will not appear then we actually merge those changes 
 
@@ -88,4 +87,12 @@ now go back to main branch
 
   for differences i used "git diff main" to know the differences between branches
 
-  then merge main i used command "gi merge main"
+  then merge main i used command "git merge main"
+=======
+
+git status check
+now commit this changes
+
+
+
+
